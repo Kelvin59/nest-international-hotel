@@ -56,13 +56,13 @@ nav{
       display:flex;
       flex-direction:row;
     }
+    
     ul>li{
       display:inline-block;
+      margin:0 1rem;
       }
       ul>li>a{
-        text-transform:uppercase;
-        padding:2%;
-        text-decoration:none;
+       text-decoration:none;
         color:rgba(255,255,255,0.733);
       }
       ul>li>a:hover{
