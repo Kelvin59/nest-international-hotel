@@ -78,6 +78,7 @@ nav{
        margin: 0 auto;
        text-align:center;
        
+       
       }
       .second-container{
         color:rgb(255, 47, 168);
@@ -86,28 +87,13 @@ nav{
        text-align:center;
      }
 
-     .img{
-       height:300px;
-       width:300px;
-       
-     }
-       
-.one{
-  width:300px;
-}
-.img{
-  height:300px;
-  width:300px;
-}
-.two{
-  width: 300px;
-}
-.img{
-  height:300px;
-  width:300px;
-}
-.three{
-  width:300px;
-}
-      
-
+     .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    } 
